@@ -366,16 +366,7 @@ The **kernel** is the core component of an operating system that manages hardwar
 - **File System Management**: Manages file storage, retrieval, and organization. Provides access to files and directories.
 - **System Calls**: Provides an interface for user programs to request services from the kernel (e.g., file operations, process control).
 
-#### Types of Kernels:
-- **Monolithic Kernel**: All system services run in kernel space (e.g., Linux).
-- **Microkernel**: Minimal core functions in the kernel, with additional services running in user space (e.g., Minix).
-- **Hybrid Kernel**: Combines features of monolithic and microkernels (e.g., Windows NT).
 
-#### Example of Kernel Operations:
-- **Process Scheduling**: The kernel decides which process runs at any given time, using scheduling algorithms like Round Robin or Priority Scheduling.
-- **Memory Management**: The kernel handles page faults, manages paging and segmentation, and allocates memory to processes.
-
-### Summary
 
 - **Shell**: The user interface for interacting with the OS, including command-line and graphical interfaces. It handles user commands and scripts.
 - **Kernel**: The core component of the OS that manages hardware resources, processes, memory, devices, and file systems. It operates with high privilege and provides essential system services.

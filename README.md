@@ -177,3 +177,32 @@ Process states and Transitions in a UNIX Process
 Introduction to Linux Shell and Shell Scripting
 ‘crontab’ in Linux with Examples
 indepth and maxdepth in Linux find() command for limiting search to a specific directory.
+
+
+### 1. What is an Operating System?
+
+An **Operating System (OS)** is system software that manages computer hardware and software resources, providing common services for computer programs. It acts as an intermediary between the user and the computer hardware. 
+
+Key functions include:
+- **Resource Management**: Manages CPU, memory, disk drives, and peripheral devices.
+- **Process Management**: Handles the creation, scheduling, and termination of processes.
+- **Memory Management**: Manages system memory or RAM and ensures proper allocation to processes.
+- **File System Management**: Organizes, stores, and retrieves data from the storage system.
+- **Security and Access Control**: Protects system data and resources from unauthorized access.
+
+#### Examples of Operating Systems:
+- **Windows**: Popular for desktops and personal computers.
+- **Linux**: Open-source OS used for servers and development.
+- **MacOS**: OS for Apple devices.
+- **Android/iOS**: Mobile operating systems.
+
+##### Diagram (optional for notes):
+```
+User Applications ↔ Operating System ↔ Hardware
+```
+
+> The OS provides a user-friendly interface to interact with the underlying hardware efficiently.
+
+---
+
+This is a broad overview of the operating system. Would you like to dive deeper into any specific sub-topic next?

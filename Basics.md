@@ -550,3 +550,32 @@ A **Multi-Processing Operating System** is designed to support the simultaneous 
 
 ### Example:
 Modern systems like **Linux** and **Windows** support multi-processing, where tasks can be distributed across multiple processors for faster and efficient computing. Systems with multi-core processors, where each core acts as a separate CPU, are examples of multi-processing environments.
+
+
+## Question 13: Multi-Tasking Operating System
+![image](https://github.com/user-attachments/assets/91aa6e75-f10e-4c66-ba00-f95c111ce158)
+
+
+A **Multi-Tasking Operating System** allows multiple tasks (or processes) to run concurrently on a single CPU. It rapidly switches between tasks, giving the illusion that all are executing simultaneously. The primary goal of multi-tasking is to efficiently utilize the CPU by minimizing idle time.
+
+### Key Characteristics:
+1. **Concurrent Execution**: Multiple tasks are run concurrently, with the operating system switching between them. Only one task runs at a time, but the switches are so fast that users perceive tasks as being executed simultaneously.
+2. **Time Sharing**: CPU time is divided among tasks, allowing each to execute for a short period (called a time slice or quantum). This technique ensures that each task gets a fair amount of CPU time.
+3. **Preemption**: The operating system can interrupt a task that is running to allocate CPU time to another task, ensuring efficient resource use and responsiveness.
+4. **User and System Tasks**: Multi-tasking allows users to run multiple applications (like a web browser, text editor, etc.) while the system handles background tasks (like virus scanning).
+
+### Types of Multi-Tasking:
+- **Preemptive Multi-Tasking**: The operating system controls task switching, allowing it to preempt (interrupt) tasks to allocate time to higher-priority tasks. Example: **Windows, Linux**.
+- **Cooperative Multi-Tasking**: Tasks voluntarily yield control of the CPU. If a task doesn’t give up control, other tasks may be blocked. Example: **Early Mac OS versions**.
+
+### Benefits:
+- **Efficient CPU Utilization**: The CPU is kept busy by switching between multiple tasks, reducing idle time and increasing productivity.
+- **Improved Responsiveness**: Users can interact with several applications simultaneously without noticeable delays.
+- **Fair CPU Allocation**: Time sharing ensures that all tasks get a fair share of CPU time, preventing any single task from monopolizing the processor.
+
+### Drawbacks:
+- **Complex Scheduling**: Task scheduling becomes more complex as the operating system must manage the priorities and CPU time for multiple tasks.
+- **Overhead**: Frequent switching between tasks introduces context-switching overhead, which can reduce system performance.
+
+### Example:
+Modern operating systems like **Windows**, **macOS**, and **Linux** support multi-tasking, allowing users to run multiple applications, such as a web browser, media player, and word processor, simultaneously.

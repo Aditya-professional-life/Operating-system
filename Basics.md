@@ -438,7 +438,7 @@ https://static.javatpoint.com/blog/images/what-is-kernel3.png
 Each type of kernel has its own strengths and trade-offs, impacting the performance, stability, and complexity of the operating system.
 
 
-##9 Difference Between 32-Bit and 64-Bit Operating Systems
+## 9 Difference Between 32-Bit and 64-Bit Operating Systems
 
 Here's a comparison of 32-bit and 64-bit operating systems:
 

@@ -78,7 +78,7 @@ User Applications ↔ Operating System ↔ Hardware
 
 ---
 
-### Characteristics of an Operating System
+## 3 Characteristics of an Operating System
 
 An operating system (OS) has several key characteristics that are crucial for managing computer systems and providing a stable environment for applications. Here’s a detailed overview of each characteristic:
 

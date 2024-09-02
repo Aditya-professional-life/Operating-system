@@ -524,3 +524,29 @@ A **Multi-Programming Operating System** allows multiple programs to reside in m
 ### Example:
 In early systems like **UNIX**, multi-programming allowed multiple users to run programs simultaneously, each sharing system resources efficiently without knowing what other users were doing.
 
+
+## Question 12: Multi-Processing Operating System
+![image](https://github.com/user-attachments/assets/6a203f9f-40d0-4e8a-b008-874b4ab57f29)
+
+
+A **Multi-Processing Operating System** is designed to support the simultaneous execution of multiple processes using more than one CPU. These systems have multiple processors (CPUs) that work together to execute multiple tasks concurrently, which enhances the system's overall performance and reliability.
+
+### Key Characteristics:
+1. **Multiple CPUs**: The system has two or more CPUs (processors) that work in parallel, enabling concurrent execution of processes.
+2. **Parallel Processing**: Tasks are divided and processed simultaneously on different CPUs, improving computational speed and efficiency.
+3. **Increased Reliability**: If one CPU fails, the others can continue processing tasks, making the system more fault-tolerant.
+4. **Symmetric and Asymmetric Multi-Processing**:
+   - **Symmetric Multi-Processing (SMP)**: All CPUs share the same memory and are treated equally. Each CPU can perform any task.
+   - **Asymmetric Multi-Processing (AMP)**: One CPU is designated as the master, and others are assigned specific tasks. The master controls the distribution of work.
+   
+### Benefits:
+- **Increased Processing Power**: Multiple CPUs working together allow for faster execution of tasks and more efficient processing.
+- **Better Throughput**: The system can handle more processes at once, leading to higher throughput and productivity.
+- **Fault Tolerance**: If one CPU fails, the system can still function using the remaining CPUs, making it more reliable.
+
+### Drawbacks:
+- **Complex System Design**: Multi-processing systems require more complex hardware and software to manage communication between CPUs.
+- **Synchronization Issues**: Coordination between multiple CPUs can introduce challenges, such as handling shared resources and preventing data inconsistency.
+
+### Example:
+Modern systems like **Linux** and **Windows** support multi-processing, where tasks can be distributed across multiple processors for faster and efficient computing. Systems with multi-core processors, where each core acts as a separate CPU, are examples of multi-processing environments.

@@ -154,4 +154,41 @@ An operating system (OS) has several key characteristics that are crucial for ma
 
 ---
 
-This overview covers the essential characteristics and functionalities of an operating system. Feel free to ask if you need more details on any specific characteristic or topic!
+## 4. What is an Assembler?
+
+An **assembler** is a software tool that translates assembly language, a low-level programming language, into machine code, which the computer's processor can execute. Assembly language is more readable than machine code but still closely aligned with the architecture of the computer.
+
+### Key Points:
+- **Purpose**: Converts human-readable assembly instructions into machine code.
+- **Output**: Generates an executable file or object code.
+
+### Basic Assembly Code Snippet
+
+Here's a simple assembly code snippet for an x86 architecture that adds two numbers:
+
+```assembly
+section .data
+    num1 db 5       ; Define byte with value 5
+    num2 db 10      ; Define byte with value 10
+    result db 0     ; Define byte to store result
+
+section .text
+    global _start
+
+_start:
+    mov al, [num1]  ; Load value of num1 into AL register
+    add al, [num2]  ; Add value of num2 to AL
+    mov [result], al; Store result in memory
+
+    ; Exit program
+    mov eax, 1      ; System call number for exit
+    xor ebx, ebx    ; Exit code 0
+    int 0x80        ; Call kernel
+```
+
+### Explanation:
+- **section .data**: Defines data used by the program.
+- **section .text**: Contains executable instructions.
+- **mov**: Moves data between registers and memory.
+- **add**: Adds values.
+- **int 0x80**: Interrupt to call the kernel for system calls.

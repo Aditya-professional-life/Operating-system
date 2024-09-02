@@ -24,7 +24,7 @@ User Applications ↔ Operating System ↔ Hardware
 > The OS provides a user-friendly interface to interact with the underlying hardware efficiently.
 
 ---
-### History of Operating Systems: From 1st Generation to 4th Generation
+## 2 History of Operating Systems: From 1st Generation to 4th Generation
 
 #### 1. **First Generation (1940s - Early 1950s)**: *Vacuum Tubes and Machine Language*
 - **Hardware**: Computers used vacuum tubes and were massive in size.

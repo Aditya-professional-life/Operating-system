@@ -501,5 +501,26 @@ Early systems like **IBM OS/360** used batch processing, where users submitted j
 
 In summary, batch operating systems were a significant step in the evolution of modern operating systems, designed to maximize resource utilization by processing jobs in batches without user interaction during execution.
 
+## Question 11: Multi-Programming Operating System
+![image](https://github.com/user-attachments/assets/cbf043b7-3e93-4fed-bba3-47af8c875e99)
 
+
+A **Multi-Programming Operating System** allows multiple programs to reside in memory and be executed by the CPU simultaneously. This technique increases system efficiency by ensuring that the CPU is not idle while a program is waiting for I/O operations, such as reading from or writing to a disk. 
+
+### Key Characteristics:
+1. **Multiple Programs in Memory**: Several programs are kept in memory at the same time, sharing system resources like CPU, memory, and I/O devices.
+2. **Efficient CPU Utilization**: If one program is waiting for I/O, the CPU can switch to another program, minimizing idle time.
+3. **Job Scheduling**: The operating system manages the execution of programs through a job scheduler, selecting which job to run based on priority or resource availability.
+4. **Non-Interactive**: Unlike modern multi-tasking systems, early multi-programming systems were non-interactive; they did not allow real-time user interaction with the running processes.
+   
+### Benefits:
+- **Maximized Resource Utilization**: By keeping multiple jobs in memory, multi-programming makes sure that system resources, especially the CPU, are not left idle.
+- **Increased Throughput**: More programs are processed in a given time frame, leading to higher overall system throughput.
+  
+### Drawbacks:
+- **Complex Memory Management**: Keeping several programs in memory requires more sophisticated memory management, including managing overlapping memory spaces and preventing interference.
+- **CPU Scheduling**: Effective CPU scheduling is crucial to balance the load and ensure fair CPU time for all programs.
+
+### Example:
+In early systems like **UNIX**, multi-programming allowed multiple users to run programs simultaneously, each sharing system resources efficiently without knowing what other users were doing.
 

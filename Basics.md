@@ -579,3 +579,27 @@ A **Multi-Tasking Operating System** allows multiple tasks (or processes) to run
 
 ### Example:
 Modern operating systems like **Windows**, **macOS**, and **Linux** support multi-tasking, allowing users to run multiple applications, such as a web browser, media player, and word processor, simultaneously.
+
+
+## Question 14: Time-Sharing Operating Systems
+![image](https://github.com/user-attachments/assets/70aa679c-c7d7-4bbd-ba64-17f0c38c7b30)
+
+A **Time-Sharing Operating System** allows multiple users or tasks to use the system simultaneously by dividing CPU time into small time slices and rapidly switching between tasks. This gives each task or user the impression of having dedicated access to the system, even though the CPU is being shared.
+
+### Key Characteristics:
+1. **Time Slicing**: The CPU time is divided into small intervals (time slices), with each task being assigned a slice in a round-robin fashion. After its time slice, the task is paused, and the next task is given CPU time.
+2. **Multitasking Environment**: Multiple tasks run concurrently, with each getting a fair share of CPU time, making it an extension of multi-tasking operating systems.
+3. **User Interaction**: Time-sharing systems allow for real-time interaction with multiple users, who can work on the system simultaneously.
+4. **Efficient Resource Use**: Resources like CPU, memory, and I/O devices are shared among multiple users or processes, ensuring that no resource sits idle for long.
+
+### Benefits:
+- **Increased System Utilization**: Time-sharing ensures that CPU and other resources are used efficiently, even in multi-user environments.
+- **Fairness**: Every user or task gets a fair share of the CPU, improving responsiveness and system balance.
+- **Interactive Computing**: Allows multiple users to interact with their programs simultaneously, making it ideal for environments like universities and businesses where many people share resources.
+
+### Drawbacks:
+- **High Overhead**: Frequent context switching between tasks introduces overhead, reducing system performance.
+- **Security Concerns**: Multiple users sharing resources increase the risk of security breaches if isolation between user processes isn’t handled well.
+  
+### Example:
+**UNIX** and **Linux** systems are popular examples of time-sharing operating systems, where multiple users can access the system at the same time and run their own processes in a shared environment.

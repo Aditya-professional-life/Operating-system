@@ -468,7 +468,8 @@ Here's a comparison of 32-bit and 64-bit operating systems:
 
 The move from 32-bit to 64-bit systems has allowed for more robust computing environments, accommodating larger memory requirements and enhancing overall system performance.
 
-## 11 Batch Operating System
+## 10 Batch Operating System
+
 
 A **Batch Operating System** is an early form of operating system used to efficiently manage and execute multiple jobs without direct user interaction. In this system, jobs (tasks or programs) are collected, grouped together (batched), and processed sequentially in a queue.
 

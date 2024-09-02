@@ -251,3 +251,39 @@ print("Hello, World!")
 | Example Languages | C, C++                               | Python, Ruby                        |
 
 Both compilers and interpreters are essential tools in programming, and the choice between them depends on factors like development speed, performance requirements, and language features.
+
+
+
+## Why is a Compiler Faster than an Interpreter?
+
+### 1. **Pre-Translation of Code**
+
+- **Compiler**: Translates the entire source code into machine code or intermediate code before execution. This means that once the compilation is complete, the program is already in a format that the CPU can execute directly, leading to faster execution times.
+- **Interpreter**: Translates and executes code line-by-line or statement-by-statement at runtime. Each line or statement must be parsed and converted to machine code during execution, which introduces additional overhead.
+
+### 2. **No Repeated Parsing**
+
+- **Compiler**: Parses and analyzes the source code only once during the compilation phase. The resulting machine code is optimized and ready for execution, avoiding the need for repeated parsing.
+- **Interpreter**: Parses and analyzes the source code each time it is executed. This repeated parsing incurs overhead, making execution slower.
+
+### 3. **Optimization**
+
+- **Compiler**: Performs various optimization techniques during the compilation process, such as optimizing code paths, removing redundancies, and improving performance. These optimizations result in efficient machine code that runs faster.
+- **Interpreter**: Typically does not perform extensive optimizations as it translates code on-the-fly. The focus is on immediate execution rather than optimizing the code.
+
+### 4. **Direct Execution**
+
+- **Compiler**: Generates an executable file that directly interacts with the hardware. This executable file is designed to be efficiently executed by the CPU without further translation.
+- **Interpreter**: Executes code through an intermediate representation, such as bytecode or an abstract syntax tree (AST), which adds an additional layer of processing.
+
+### 5. **Runtime Overhead**
+
+- **Compiler**: Once compiled, the program runs with minimal overhead because it does not require additional translation steps.
+- **Interpreter**: Continues to incur overhead during execution due to the need to repeatedly translate code and manage runtime environments.
+
+### Summary
+
+- **Compiler**: Converts the entire program to machine code before execution, allowing for faster execution due to pre-optimization and direct execution.
+- **Interpreter**: Translates code line-by-line during runtime, leading to slower execution due to repeated parsing and translation.
+
+Overall, the efficiency gained by compilers in generating optimized machine code and avoiding runtime translation contributes to their faster execution compared to interpreters.

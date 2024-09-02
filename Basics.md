@@ -287,3 +287,43 @@ Both compilers and interpreters are essential tools in programming, and the choi
 - **Interpreter**: Translates code line-by-line during runtime, leading to slower execution due to repeated parsing and translation.
 
 Overall, the efficiency gained by compilers in generating optimized machine code and avoiding runtime translation contributes to their faster execution compared to interpreters.
+
+
+## 6. What is a Loader?
+
+A **loader** is a system program that is responsible for loading executable files or programs into memory and preparing them for execution. It performs several critical functions in the process of executing a program.
+
+### Key Functions of a Loader
+
+1. **Loading**:
+   - **Description**: The loader reads the executable file from disk and loads it into the system's memory.
+   - **Purpose**: Ensures that the program's code and data are placed in memory locations from which they can be executed.
+
+2. **Relocation**:
+   - **Description**: Adjusts the addresses in the program so that it can be executed correctly regardless of where it is loaded in memory.
+   - **Purpose**: Facilitates the execution of programs in different memory locations by modifying address references.
+
+3. **Linking**:
+   - **Description**: Resolves symbolic references to other modules or libraries that the program depends on.
+   - **Purpose**: Ensures that all external references are correctly linked to their respective addresses, allowing the program to access necessary functions and data.
+
+4. **Symbol Resolution**:
+   - **Description**: Identifies and resolves symbols (e.g., variable names and function names) used in the program.
+   - **Purpose**: Ensures that all symbols are properly defined and linked to their correct addresses.
+
+5. **Memory Allocation**:
+   - **Description**: Allocates memory for the program's code, data, and stack.
+   - **Purpose**: Provides the necessary memory resources for the program to run.
+
+### Example Process
+
+1. **Loading**: The loader reads the executable file, such as `program.exe`, from the disk.
+2. **Relocation**: It adjusts the code and data addresses in the executable to fit into the allocated memory space.
+3. **Linking**: It resolves any external references to shared libraries or modules that the program needs.
+4. **Execution**: The loader starts the program by passing control to the entry point of the loaded executable.
+
+### Summary
+
+A loader is a crucial component in the execution of programs. It handles the loading of executable files into memory, performs address adjustments (relocation), resolves symbols, and ensures that all dependencies are linked correctly. This process prepares the program for execution by the operating system.
+
+If you need more details on any aspect of loaders, feel free to ask!
